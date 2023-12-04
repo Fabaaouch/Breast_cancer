@@ -53,6 +53,8 @@ def user_input_cancer():
     return cancer_parameters
 
 
+st.write("Application de prédiction du cancer de sein")
+
 df = user_input_cancer()
 
 # Ajout d'un bouton pour déclencher la prédiction
